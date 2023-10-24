@@ -2,7 +2,7 @@
 Contributors: calculatorio
 Tags: 
 Requires at least: 5.0
-Tested up to: 6.2.2
+Tested up to: 6.3.0
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -12,6 +12,14 @@ This volume calculator uses a density formula ρ = m/V to find densities of diff
 == Description ==
 
 This volume calculator uses a density formula ρ = m/V to find densities of different substances and objects. It calculates the third one for two given values - density, mass, or volume of a substance.
+
+Libraries in use:
+1. https://mathjs.org/
+2. https://katex.org/
+3. https://github.com/aFarkas/lazysizes
+4. https://github.com/RobinHerbots/Inputmask
+5. https://air-datepicker.com/
+6. https://www.chartjs.org/
 
 == Installation ==
 
