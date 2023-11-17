@@ -1,6 +1,6 @@
 === Density Calculator by Calculator.iO ===
 Contributors: calculatorio
-Tags: 
+Tags: density calculator, calculate density, mass volume density, find density, density conversion tool, density formula calculator, material density, liquid density, calculate mass from density, density measurement tool
 Requires at least: 5.0
 Tested up to: 6.4.0
 Stable tag: 1.0.0
