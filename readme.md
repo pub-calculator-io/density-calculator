@@ -1,4 +1,4 @@
-# Density Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Density Calculator Widget for WordPress
 
 This volume calculator uses a density formula ρ = m/V to find densities of different substances and objects. It calculates the third one for two given values - density, mass, or volume of a substance.
 
