@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Density Calculator by www.calculator.io
+Plugin Name: CI Density calculator
 Plugin URI: https://www.calculator.io/density-calculator/
 Description: This volume calculator uses a density formula ρ = m/V to find densities of different substances and objects. It calculates the third one for two given values - density, mass, or volume of a substance.
 Version: 1.0.0
