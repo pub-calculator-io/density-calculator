@@ -1,4 +1,4 @@
-=== Density Calculator ===
+=== Density Calculator by www.calculator.io ===
 Contributors: calculatorio
 Tags: density calculator, calculate density, mass volume density, find density, density conversion tool, density formula calculator, material density, liquid density, calculate mass from density, density measurement tool
 Requires at least: 5.0

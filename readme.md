@@ -7,7 +7,7 @@ This volume calculator uses a density formula ρ = m/V to find densities of diff
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/density-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /density-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Density Calculator](https://www.calculator.io/density-calculator/ "Density Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
