@@ -3,7 +3,6 @@
 This volume calculator uses a density formula ρ = m/V to find densities of different substances and objects. It calculates the third one for two given values - density, mass, or volume of a substance.
 
 ![Density Calculator Input Form](/assets/images/screenshot-1.png "Density Calculator Input Form")
-![Density Calculator Calculation Results](/assets/images/screenshot-2.png "Density Calculator Calculation Results")
 
 ## Installation
 

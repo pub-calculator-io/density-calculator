@@ -49,7 +49,7 @@
                 		</label>
                 	</div>
                 	<div class="input-wrapper row find related-to-find-density">
-                		<label class="input col ">
+                		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			<p class="input__title">Density units</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -80,7 +80,7 @@
                 			</div>
                 		</label>	</div>
                 	<div class="input-wrapper row find related-to-find-mass related-item-hidden">
-                		<label class="input col ">
+                		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			<p class="input__title">Mass units</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -102,7 +102,7 @@
                 			</div>
                 		</label>	</div>
                 	<div class="input-wrapper row find related-to-find-volume related-item-hidden">
-                		<label class="input col ">
+                		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			<p class="input__title">Volume units</p>
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row " tabindex="0">
@@ -137,7 +137,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="mass_density" value="124" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -166,7 +166,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="volume_density" value="1" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -201,7 +201,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="volume_mass" value="320" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -236,7 +236,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="density_mass" value="24" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -274,7 +274,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="mass_volume" value="240" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -303,7 +303,7 @@
                 				<input type="text" class="input-field__input" placeholder="" id="density_volume" value="32" />
                 				
                 			</div>
-                		</label>		<label class="input col ">
+                		</label>		<label class="input col volume-calculator,concrete-calculator,cubic-yards-calculator,cylinder-volume-calculator">
                 			
                 			<div class="dropdown-wrapper">
                 				<div class="input-field row input-field--gray" tabindex="0">
@@ -340,13 +340,15 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -361,19 +363,18 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col find related-to-find-density">
 	<p class="table-cell table-cell--dark table-cell--only-title">Density</p>
-	<p class="table-cell table-cell--only" id="result_density">p = 124 g/cm³</p>
+	<p class="table-cell table-cell--only animate" id="result_density">p = 124 g/cm³</p>
 </div>
 <div class="calculator-result col find related-to-find-mass related-item-hidden">
 	<p class="table-cell table-cell--dark table-cell--only-title">Mass</p>
-	<p class="table-cell table-cell--only" id="result_mass">m = 7,680 g</p>
+	<p class="table-cell table-cell--only animate" id="result_mass">m = 7,680 g</p>
 </div>
 <div class="calculator-result col find related-to-find-volume related-item-hidden">
 	<p class="table-cell table-cell--dark table-cell--only-title">Volume</p>
-	<p class="table-cell table-cell--only" id="result_volume">V = 7.5 mL</p>
+	<p class="table-cell table-cell--only animate" id="result_volume">V = 7.5 mL</p>
 </div>
 </span>
     </div>

@@ -24,7 +24,6 @@ Add the following code to your template where you would like the Density Calcula
 == Screenshots ==
 
 1. The Density Calculator Input Form.
-2. The Density Calculator Calculation Results.
 
 == Installation ==
 
